@@ -135,9 +135,6 @@ Plug 'altercation/vim-colors-solarized'
 " molokai
 " 主题 molokai
 Plug 'tomasr/molokai'
-Plug 'sickill/vim-monokai'
-Plug 'flazz/vim-colorschemes'
-Plug 'felixhummel/setcolors.vim'
 
 
 " nav
@@ -157,8 +154,6 @@ Plug 'kana/vim-textobj-line'
 Plug 'kana/vim-textobj-entire'
 " 增加缩进文本对象: i   dai yai cii - 相同缩进属于同一块
 Plug 'kana/vim-textobj-indent'
-" 自动snippnet
-Plug 'honza/vim-snippets'
 
 if count(g:bundle_groups, 'tmux')
     " tmux
@@ -272,12 +267,6 @@ endif
 
 
 " Add plugins to &runtimepath
-
-Plug 'vim-scripts/taglist.vim'
-Plug 'vim-scripts/a.vim'
-" 执行shell命令
-" Plug 'christoomey/vim-run-interactive'
-Plug 'vim-scripts/Conque-Shell'
 call plug#end()
 
 
@@ -701,7 +690,6 @@ call plug#end()
 " tagbar {{{
     nmap <F9> :TagbarToggle<CR>
     let g:tagbar_autofocus = 1
-    let g:tagbar_width=25
     " let g:tagbar_autoshowtag = 1
     " let g:tagbar_show_visibility = 1
     " for ruby
@@ -823,5 +811,3 @@ call plug#end()
 " }}}
 
 "------------------------------------------- end of configs --------------------------------------------
-"自定义插件 
-"by 陈杨
